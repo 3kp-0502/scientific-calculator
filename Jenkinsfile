@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKER_IMAGE_NAME = 'yourusername/scientific-calculator'
+        DOCKER_IMAGE_NAME = '3kp0502/scientific-calculator'
         DOCKER_IMAGE_TAG = "${BUILD_NUMBER}"
     }
     

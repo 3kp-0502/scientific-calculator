@@ -4,7 +4,7 @@
   become: yes
   
   vars:
-    docker_image: "yourusername/scientific-calculator:latest"
+    docker_image: "3kp0502/scientific-calculator:latest"
     container_name: "scientific-calculator"
     
   tasks:
