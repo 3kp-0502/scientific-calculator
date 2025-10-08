@@ -58,16 +58,17 @@ pipeline {
             }
         }
         
-        stage('Deploy with Ansible') {
-            steps {
-                echo 'Deploying application using Ansible...'
-                ansiblePlaybook(
-                    playbook: 'ansible/deploy.yml',
-                    inventory: 'ansible/inventory',
-                    extras: "-e docker_image=${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}"
-                )
-            }
-        }
+        
+	stage('Deploy with Ansible') {
+    	    steps {
+       		echo 'Deploying application using Ansible...'
+       		sh """
+       		    sudo ansible-playbook ansible/deploy.yml \
+           	    -i ansible/inventory \
+          	    -e docker_image=${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
+                """
+   	    }
+	}
     }
     
     post {
