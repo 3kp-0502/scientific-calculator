@@ -22,8 +22,8 @@ A command-line scientific calculator with complete DevOps pipeline implementatio
 
 ## Links
 
-- **GitHub Repository**: [Add your link]
-- **Docker Hub**: [Add your link]
+- **GitHub Repository:** https://github.com/3kp-0502/scientific-calculator
+- **Docker Hub Repository:** https://hub.docker.com/r/3kp0502/scientific-calculator
 
 ## Author
 
