@@ -26,6 +26,6 @@ A command-line scientific calculator with complete DevOps pipeline implementatio
 - **Docker Hub Repository:** https://hub.docker.com/r/3kp0502/scientific-calculator
 
 ## Author
-
+Pudi Kireeti
 IMT2022059
 # Testing webhook automation
