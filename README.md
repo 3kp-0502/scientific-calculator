@@ -1,4 +1,4 @@
-# Scientific Calculator - DevOps Mini Project
+# Scientific Calculator - DevOps Mini Project   
 
 A command-line scientific calculator with complete DevOps pipeline implementation.
 
